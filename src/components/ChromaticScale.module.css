@@ -1,0 +1,64 @@
+.container {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  border: 3px outset rgba(0,0,0,0.2);  
+  border-radius: 10px;
+  background-color: brown;
+  transition: all 0.1s ease-in-out;
+}
+
+.container div:hover {
+  transform: translateY(-5px);
+}
+
+.container .solS3 { background-color: rgb(150,250,100);}
+.container .sol3 { background-color: rgb(250,250,100);}
+.container .faS3 { background-color: rgb(250,150,100);}
+.container .fa3 { background-color: rgb(250,100,100);}
+.container .mi3 { background-color: rgb(250,100,150);}
+.container .reS3 { background-color: rgb(250,100,250);}
+.container .re3 { background-color: rgb(150,100,250);}
+.container .doS3 { background-color: rgb(100,100,250);}
+.container .do3 { background-color: rgb(100,150,250);}
+.container .si3 { background-color: rgb(100,250,250);}
+.container .laS3 { background-color: rgb(100,250,150);}
+.container .la3 { background-color: rgb(100,250,100);}
+
+.container .solS2 { background-color: rgb(100,200,0);}
+.container .sol2 { background-color: rgb(200,200,0);}
+.container .faS2 { background-color: rgb(200,100,0);}
+.container .fa2 { background-color: rgb(200,0,0);}
+.container .mi2 { background-color: rgb(200,0,100);}
+.container .reS2 { background-color: rgb(200,0,200);}
+.container .re2 { background-color: rgb(100,0,200);}
+.container .doS2 { background-color: rgb(0,0,200);}
+.container .do2 { background-color: rgb(0,100,200);}
+.container .si2 { background-color: rgb(0,200,200);}
+.container .laS2 { background-color: rgb(0,200,100);}
+.container .la2 { background-color: rgb(0,200,0);}
+
+.container .solS1 { background-color: rgb(25,75,0);}
+.container .sol1 { background-color: rgb(75,75,0);}
+.container .faS1 { background-color: rgb(75,25,0);}
+.container .fa1 { background-color: rgb(75,0,0);}
+.container .mi1 { background-color: rgb(75,0,25);}
+.container .reS1 { background-color: rgb(75,0,75);}
+.container .re1 { background-color: rgb(25,0,75);}
+.container .doS1 { background-color: rgb(0,0,75);}
+.container .do1 { background-color: rgb(0,25,75);}
+.container .si1 { background-color: rgb(0,75,75);}
+.container .laS1 { background-color: rgb(0,75,25);}
+.container .la1 { background-color: rgb(0,75,0);}
+
