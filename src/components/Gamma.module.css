@@ -1,0 +1,142 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BASIC */
+/* .gradient {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 30px;
+  background: linear-gradient(
+    to top,
+    rgb(150, 0, 0),
+    rgb(150, 150, 0),
+    rgb(0, 150, 0),
+    rgb(0, 150, 150),
+    rgb(0, 0, 150),
+    rgb(150, 0, 150),
+    rgb(200, 0, 0)
+  );
+} */
+
+/* MEDIUM */
+/* .gradient {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 30px;
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(50, 0, 0),
+    rgb(50, 50, 0),
+    rgb(0, 50, 0),
+    rgb(0, 50, 50),
+    rgb(0, 0, 50),
+    rgb(50, 0, 50),
+    rgb(250, 0, 0),
+    rgb(250, 250, 0),
+    rgb(0, 250, 0),
+    rgb(0, 250, 250),
+    rgb(0, 0, 250),
+    rgb(250, 0, 250),
+    rgb(250, 150, 150),
+    rgb(250, 250, 150),
+    rgb(150, 250, 150),
+    rgb(150, 250, 250),
+    rgb(150, 150, 250),
+    rgb(250, 150, 250),
+    rgb(250,250,250),
+    rgb(250,250,250)
+  );
+} */
+
+/* BLACK_TO_BRIGHT */
+/* .gradient {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 30px;
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgb(25, 0, 0),
+    rgb(25, 25, 0),
+    rgb(0, 25, 0),
+    rgb(0, 25, 25),
+    rgb(0, 0, 25),
+    rgb(25, 0, 25),
+    rgb(50, 0, 0),
+    rgb(50, 50, 0),
+    rgb(0, 50, 0),
+    rgb(0, 50, 50),
+    rgb(0, 0, 50),
+    rgb(50, 0, 50),
+    rgb(100, 0, 0),
+    rgb(100, 100, 0),
+    rgb(0, 100, 0),
+    rgb(0, 100, 100),
+    rgb(0, 0, 100),
+    rgb(100, 0, 100),
+    rgb(150, 0, 0),
+    rgb(150, 150, 0),
+    rgb(0, 150, 0),
+    rgb(0, 150, 150),
+    rgb(0, 0, 150),
+    rgb(150, 0, 150),
+    rgb(200, 0, 0),
+    rgb(200, 200, 0),
+    rgb(0, 200, 0),
+    rgb(0, 200, 200),
+    rgb(0, 0, 200),
+    rgb(200, 0, 150),
+    rgb(250, 0, 0),
+    rgb(250, 250, 0),
+    rgb(0, 250, 0),
+    rgb(0, 250, 250),
+    rgb(0, 0, 250),
+    rgb(250, 0, 250),
+    rgb(250, 0, 250)
+  );
+} */
+
+/* BRIGHT_TO_WHITE */
+/* .gradient {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 30px;
+  background: linear-gradient(
+    to top,
+    rgb(250, 0, 0),
+    rgb(250, 250, 0),
+    rgb(0, 250, 0),
+    rgb(0, 250, 250),
+    rgb(0, 0, 250),
+    rgb(250, 0, 250),
+    rgb(250, 100, 100),
+    rgb(250, 250, 100),
+    rgb(100, 250, 100),
+    rgb(100, 250, 250),
+    rgb(100, 100, 250),
+    rgb(250, 100, 250),
+    rgb(250, 150, 150),
+    rgb(250, 250, 150),
+    rgb(150, 250, 150),
+    rgb(150, 250, 250),
+    rgb(150, 150, 250),
+    rgb(250, 150, 250),
+    rgb(250, 200, 200),
+    rgb(250, 250, 200),
+    rgb(200, 250, 200),
+    rgb(200, 250, 250),
+    rgb(200, 200, 250),
+    rgb(250, 200, 250),
+    rgb(250, 250, 250),
+    rgb(250, 250, 250),
+    rgb(250, 250, 250)
+  );
+} */
